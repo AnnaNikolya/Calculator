@@ -11,18 +11,12 @@ public class Calculator {
         this.a = a;
         this.b = b;
     }
-
     public int sum(){
         return a + b;
     }
-
     public int deff(){
         return a - b;
     }
-    public int div(){
-        return a / b;
-    }
-    public int mult(){
-        return a / b;
-    }
+    public int div(){return a / b;}
+    public int mult(){return a * b;}
 }
