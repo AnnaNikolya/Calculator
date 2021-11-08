@@ -1,3 +1,5 @@
+package tests;
+
 import org.testng.annotations.DataProvider;
 
 public class DataProviderTest {
@@ -9,4 +11,4 @@ public class DataProviderTest {
         };
     }
 }
-}
+

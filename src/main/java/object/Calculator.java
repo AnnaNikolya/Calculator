@@ -1,5 +1,8 @@
+package object;
+
 public class Calculator {
 
+    public int currentTotal;
     private int a;
     private int b;
 
@@ -11,12 +14,15 @@ public class Calculator {
         this.a = a;
         this.b = b;
     }
-    public int sum(){
+    public int sum(int i, int i1, String s){
         return a + b;
     }
-    public int deff(){
+    public int subtract(int i){
         return a - b;
     }
-    public int div(){return a / b;}
-    public int mult(){return a * b;}
+    public int div(int i){return a / b;}
+    public int mult(int i){return a * b;}
+
+    public void equal(String s) {}
+    public void add(int i) {}
 }

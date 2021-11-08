@@ -3,7 +3,7 @@ package tests;
 import object.Calculator;
 import object.ReadClass;
 
-public class DeferenceTest {
+public class SubtractTest {
     public static void main(String[] args) {
         ReadClass readClass = new ReadClass();
         int one = 0;
@@ -19,7 +19,7 @@ public class DeferenceTest {
         int action = (int) readClass.readNextInt();
         switch (action)
         {
-            case 2: System.out.println(calculator.deff());
+            case 2: System.out.println(calculator.subtract(30));
                 break;
         }
     }
