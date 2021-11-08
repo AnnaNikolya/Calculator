@@ -1,3 +1,8 @@
+package tests;
+
+import object.Calculator;
+import object.ReadClass;
+
 public class DeferenceTest {
     public static void main(String[] args) {
         ReadClass readClass = new ReadClass();
